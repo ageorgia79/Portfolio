@@ -1,0 +1,47 @@
+// bower:scss
+// endbower
+
+.resumeMargins {
+    margin-left: 10px;
+}
+
+.resumeName {
+    font-size: 20px;
+}
+
+.resumeContactInfo {
+    font-size: 14px;
+}
+
+.resumeHeader {
+    margin-top: 15px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+
+}
+
+.resumeSummary {
+    font-size: 16px;
+}
+
+.resumeSchoolName {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.goBack {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.worksResume {
+    padding: 10px;
+    margin: 0px auto;
+    display: block;
+    background-color: #969799;
+    width: calc(90% - 40px);
+    height: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
