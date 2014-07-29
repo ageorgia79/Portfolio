@@ -41,7 +41,7 @@ a {
     cursor: pointer;
 
     a {
-        color: white;
+        color: black;
         text-decoration: none;
         font-size: 20px;
         position: relative;
@@ -56,17 +56,17 @@ a {
 .headerimg {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 400px;
     background-size: cover;
-    //background-image: url('../images/headerimg.jpg');
-    padding-top: 100px;
+    background-image: url(http://sspeterandpaulevlutheranchurchuac.org/site/style6130/images/topbar/1.jpg);
+    
 }
 
 .myNamebackground {
     display: block;
     //float: right;
     margin-right: 50px;
-    background-color: white;
+
     //opacity: 0.4;
 }
 
@@ -109,9 +109,9 @@ a {
 }
 
 .secondContainer {
-    border-top: 5px solid gray;
+    border-top: 3px solid black;
     padding: 10px;
-    background-color: #C6CCC7;
+    background-color: #FFFFCC;
     width: 100%;
     
 }
@@ -135,11 +135,13 @@ a {
     padding: 10px;
     margin: 0px auto;
     display: block;
-    background-color: #969799;
+    background-color: black;
     width: calc(90% - 40px);
     height: 250px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 5px;
+    border: 2px solid white;
+    color: white;
 }
 
 .sampleIMG {
@@ -164,21 +166,24 @@ a {
 .projectName {
     font-size: 40px;
     font-weight: 700;
+    color: white;
 }
 
 .projectDescrip {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .tools {
     font-size: 12px;
-    color: black;
+    color: white;
+
 }
 
 .toolsUsed {
     font-size: 14px;
-    color: black;
+    color: white;
     //margin-bottom: 30px;
     font-weight: 700;
 }
@@ -186,10 +191,13 @@ a {
 .links {
     font-size: 20px;
     float: right;
+    a {
+        color: white;
+    }
 }
 
 .thirdContainer {
-    border-top: 5px solid gray;
+    //border-top: 5px solid gray;
     background-color: black;
     padding: 20px;
     color: white;
@@ -218,7 +226,7 @@ a {
 
 .fourthContainer {
     padding: 20px;
-    border-top: 5px solid gray;
+    //border-top: 5px solid gray;
     background-repeat: repeat;
     background-image: url('../images/grass.jpg');
 }
@@ -265,6 +273,7 @@ a {
 .fourthCenter {
     margin: 0px auto;
     background-color: white;
+    border: 1px solid gray;
     width: 300px;
     -webkit-box-shadow: 0 8px 6px -6px black;
        -moz-box-shadow: 0 8px 6px -6px black;
